@@ -102,7 +102,7 @@ public:
             auto scene = vbox({
                 vbox(scene_lines),
                 separator(),
-                text("Pac-Man persigue al fantasma 👻") | center
+                text("") | center
             }) | bgcolor(Color::Black);
 
             Render(screen, scene);
@@ -111,7 +111,7 @@ public:
             std::this_thread::sleep_for(std::chrono::milliseconds(150));
         }
 
-        std::cout << "\n👾 ¡Fin de animación! 👾\n";
+        std::cout << "\n fin de animacion \n";
     }
 };
 
